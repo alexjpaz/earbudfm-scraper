@@ -92,5 +92,3 @@ fs.writeFile(path, content, function(err) {
 
   console.log("The file was saved!");
 });
-
-console.log(xml);
