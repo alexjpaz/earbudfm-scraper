@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Running phantomjs"
-#phantomjs scrape.js
+phantomjs scrape.js
 
-echo "Processing JSON -> RSS"
-node process.js
+#echo "Processing JSON -> RSS"
+#node process.js
