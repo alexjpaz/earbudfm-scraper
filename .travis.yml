@@ -1,0 +1,15 @@
+sudo: required
+
+language: ruby
+
+services:
+  - docker
+
+script:
+  - make ci
+
+after_success:
+  - git add output
+  - git commit -m 'Deploying output'
+  - git push
+
