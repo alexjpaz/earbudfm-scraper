@@ -11,5 +11,5 @@ script:
 after_success:
   - git add output
   - git commit -m 'Deploying output'
-  - git push
+  - git push -f https://alexjpaz:$GITHUB_TOKEN@github.com/alexjpaz/earbudfm-scraper master
 
