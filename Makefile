@@ -1,5 +1,7 @@
 all: dockerBuild go
 
+ci: all
+
 dockerBuild:
 	docker build -t earbud .
 go: dockerBuild
